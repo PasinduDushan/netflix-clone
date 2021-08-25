@@ -15,12 +15,12 @@ npm install
 ```
 
 
-Start in development mode
+1. Start in development mode
 
 ```bash
 npm dev
 ```
-Start in public mode
+2. Start in public mode
 ```bash
 npm start
 ```
