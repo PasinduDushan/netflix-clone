@@ -1,15 +1,14 @@
 const express = require('express');
-const path = require('path');
-
-let initial_path = path.join(__dirname, "public");
-
 let app = express();
-app.use(express.static(initial_path));
+const config = require('./config.json');
+const PORT = config.PORT || 5000
+
+app.use(express.static(__dirname + "/public"));
 
 app.get('/', (req, res) => {
     res.sendFile(path.join(initial_path, "index.html"));
 })
 
-app.listen(3000, () => {
-    console.log('listening on port 3000......');
+app.listen(PORT, () => {
+    console.log(`Server started on PORT: ${PORT}`);
 })
