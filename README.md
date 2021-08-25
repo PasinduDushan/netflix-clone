@@ -13,7 +13,12 @@ cd netflix-clone
 ```bash
 npm install
 ```
+Go to the file below specified and add your API_KEY
 
+```bash
+public => js => api.js
+```
+You can obtain an API_KEY from [This Site](https://www.themoviedb.org/)
 
 1. Start in development mode
 
