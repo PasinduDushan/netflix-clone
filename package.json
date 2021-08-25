@@ -9,7 +9,7 @@
     "dev": "nodemon index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Pasindu Ranasinghe",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
