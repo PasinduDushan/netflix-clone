@@ -24,3 +24,8 @@ npm dev
 ```bash
 npm start
 ```
+
+## Contributing
+
+Before creating an issue, please ensure that it hasn't already been reported/suggested
+See [the contribution guide]if you'd like to submit a PR.
