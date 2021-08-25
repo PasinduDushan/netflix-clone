@@ -14,8 +14,13 @@ cd netflix-clone
 npm install
 ```
 
-To start in development mode
+
+Start in development mode
 
 ```bash
 npm dev
+```
+Start in public mode
+```bash
+npm start
 ```
