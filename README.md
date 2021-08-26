@@ -36,5 +36,5 @@ Before creating an issue, please ensure that it hasn't already been reported/sug
 
 ## Screen Shots
 
-![image](https://user-images.githubusercontent.com/57533877/130800233-00edcc91-a51e-4f64-bed3-f1dfa7c35af6.png)
+![image](https://user-images.githubusercontent.com/57533877/130921139-7e1418a8-e20c-49cd-b8e3-43b9ca779636.png)
 ![image](https://user-images.githubusercontent.com/57533877/130800287-8eccea95-6589-4dd3-97ad-f3db14ca1a50.png)
