@@ -1,27 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+<html prefix="og: https://netflix-clone-3.crazybotboy.repl.co">
 <head>
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://netflix-clone-3.crazybotboy.repl.co">
+    <meta property="og:title" content="Netflix Clone">
+    <meta property="og:description" content="Netflix Clone created using JavaScript, HTML and CSS">  
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">  
     <link href="css/style.css" rel="stylesheet">
-    <title>Netflix</title>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/balzss/luxbar/ae5835e2/build/luxbar.min.css">
+    <title>Home - Netflix</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar">
-        <img src="img/logo.png" class="logo" alt="">
-        <b><p>&#160;&#160;&#160;&#160;&#160;&#160;&#160;Home</p></b>
-        <p>&#160;&#160;&#160;&#160;TV Shows</p>
-        <p>&#160;&#160;&#160;&#160;Movies</p>
-        <p>&#160;&#160;&#160;&#160;News and Popular</p>
-        <p>&#160;&#160;&#160;&#160;My List</p>
-        <div class="join-box">
-            <img src="img/avatar.png"  height="50" width="50" alt="">
-        </div>
-    </nav>
-
+   <header id="luxbar" class="luxbar-fixed">
+    <input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox"/>
+    <div class="luxbar-menu luxbar-menu-left luxbar-menu-dark">
+        <ul class="luxbar-navigation">
+            <li class="luxbar-header">
+                &#160;&#160;&#160;<img src="/img/logo.png" height="25" width="95">
+                <label class="luxbar-hamburger luxbar-hamburger-spin" 
+                id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label>
+            </li>&#160;&#160;
+            <b><li class="luxbar-item"><a href="#">Home</a></li></b>
+            <b><li class="luxbar-item"><a href="#">TV Shows</a></li></b>
+            <b><li class="luxbar-item"><a href="#">Movies</a></li></b>
+            <b><li class="luxbar-item"><a href="#">News & Popular</a></li></b>
+            <b><li class="luxbar-item"><a href="#">My List</a></li></b>
+        </ul>
+    </div>
+</header>
 <div class="hero">
   <div class="cover-gradient">
     <div class="container-main">
@@ -30,17 +43,17 @@
     height: auto;
 ">
 
-      <div class="button-container">
+        <div class="button-container">
         <button class="play-btn"><i class="fas fa-play"></i>  Play </button>
         <button class="info-btn"><i class="fas fa-info"></i> More Info </button>
-      /div>
+      </div>
     </div>
   </div>
 </div>
 
 
     <header class="main">
-        <h1 class="heading">Welcome User</h1>
+        <h1 class="heading">Welcome to Netflix</h1>
         <p class="info">Millions of movies at your fingertips from Netflix. Selct a movie from below</p>
     </header>
 
