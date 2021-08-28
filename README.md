@@ -1,6 +1,6 @@
 # Netflix Clone
 
-Netflix is a movie streaming platform with over 1 million movies and this is the basic source code for the UI of Netflix. 
+Netflix is a movie streaming platform with over 1 million movies and this is the basic source code for the UI of Netflix. Clone is mobile responsive.
 
 ## Steps to run this project locally
 
@@ -34,11 +34,9 @@ npm start
 
 Before creating an issue, please ensure that it hasn't already been reported/suggested
 
-## Important
-
-If the site do not show movies it could be an API error or system error. At that time, try again later.
-
 ## Screen Shots
 
-![image](https://user-images.githubusercontent.com/57533877/130921139-7e1418a8-e20c-49cd-b8e3-43b9ca779636.png)
-![image](https://user-images.githubusercontent.com/57533877/130921227-8deb8aa8-6bfc-4015-86ad-6a9a5e734a58.png)
+![image](https://user-images.githubusercontent.com/57533877/131208624-0fa37d01-90b5-4880-91d8-646985b701c0.png)
+![image](https://user-images.githubusercontent.com/57533877/131208633-6f935a8a-3dbc-4062-8eab-f91bf1d816ae.png)
+![image](https://user-images.githubusercontent.com/57533877/131208638-2f86bf71-af62-402f-bf95-35b6b50b7179.png)
+
