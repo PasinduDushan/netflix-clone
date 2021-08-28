@@ -9,6 +9,7 @@ body{
     position: relative;
     background: #181818;
     overflow-x: hidden;
+    font-family: "Netflix Sans", Helvetica !important;
 }
 
 .join-msg{
@@ -39,19 +40,20 @@ body{
     width: 100%;
     padding: 40px 2.5vw;
     color: #fff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .heading{
     text-transform: capitalize;
     font-weight: 900;
     font-size: 50px;
+    font-family: "Netflix Sans", Helvetica !important;
 }
 
 .info{
     width: 50%;
     font-size: 20px;
     margin-top: 10px;
+    font-family: "Netflix Sans", Helvetica !important;
 }
 
 .movie-list{
@@ -66,6 +68,7 @@ body{
     font-weight: 500;
     margin-bottom: 20px;
     text-transform: capitalize;
+    font-family: "Netflix Sans", Helvetica !important;
 }
 
 .movie-container{
@@ -111,6 +114,7 @@ body{
     text-transform: capitalize;
     height: 20px;
     overflow: hidden;
+    font-family: "Netflix Sans", Helvetica !important;
 }
 
 .pre-btn,
@@ -251,4 +255,11 @@ iframe{
 .button-container button:hover{
   filter: brightness(87%);
   cursor: pointer;
+}
+
+#nav-img{
+  margin: 4px 12px;
+  width: 50px;
+  height: auto;
+  float: right;
 }
