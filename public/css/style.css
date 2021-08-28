@@ -173,26 +173,6 @@ iframe{
   }
 } 
 
-/*
-.banner {
-  background-image: url("/img/banner.jpg");
-  background-color: #cccccc;
-  height: 750px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.banner_content {
-  text-align: left;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-} */
-
-
 .hero{
     height: auto;
     width: 100%;
@@ -230,7 +210,6 @@ iframe{
 }
 
 .info-btn{
-  
     padding: 12px 24px;
     margin: -5px;
     width: 117px;
@@ -239,7 +218,6 @@ iframe{
     color: #fff;
     border-radius: 6px;
     font-weight: bold;
-
 }
 
 .button-container button:hover{
@@ -276,6 +254,7 @@ iframe{
   height: auto;
   background-color: #181818;
 }
+
 .footer .col {
   width: 190px;
   height: auto;
@@ -285,6 +264,7 @@ iframe{
   -moz-box-sizing: border-box;
   padding: 0px 20px 20px 20px;
 }
+
 .footer .col h1 {
   margin: 0;
   padding: 0;
@@ -297,11 +277,13 @@ iframe{
   text-transform: uppercase;
   letter-spacing: 0.250em;
 }
+
 .footer .col ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
+
 .footer .col ul li {
   color: #999999;
   font-size: 14px;
@@ -313,6 +295,7 @@ iframe{
   -webkit-transition: .2s;
   -moz-transition: .2s;
 }
+
 .social ul li {
   display: inline-block;
   padding-right: 5px !important;
@@ -324,15 +307,18 @@ iframe{
   -webkit-transition: .1s;
   -moz-transition: .1s;
 }
+
 .clearfix {
   clear: both;
 }
+
 @media only screen and (min-width: 1280px) {
   .contain {
     width: 1200px;
     margin: 0 auto;
   }
 }
+
 @media only screen and (max-width: 1139px) {
   .contain .social {
     width: 1000px;
@@ -342,6 +328,7 @@ iframe{
     margin: 0px;
   }
 }
+
 @media only screen and (max-width: 950px) {
   .footer .col {
     width: 33%;
@@ -353,6 +340,7 @@ iframe{
     font-size: 13px;
   }
 }
+
 @media only screen and (max-width: 500px) {
     .footer .col {
       width: 50%;
@@ -364,6 +352,7 @@ iframe{
       font-size: 13px;
     }
 }
+
 @media only screen and (max-width: 340px) {
   .footer .col {
     width: 100%;
