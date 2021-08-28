@@ -194,8 +194,8 @@ iframe{
 
 
 .hero{
-    height: 617px;
-    width: auto;
+    height: auto;
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
