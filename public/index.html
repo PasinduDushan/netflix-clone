@@ -2,6 +2,7 @@
 <html lang="en">
 <html prefix="og: https://netflix-clone-3.crazybotboy.repl.co">
 <head>
+
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://netflix-clone-3.crazybotboy.repl.co">
     <meta property="og:title" content="Netflix Clone">
@@ -15,6 +16,7 @@
     <link rel="stylesheet" href="https://cdn.rawgit.com/balzss/luxbar/ae5835e2/build/luxbar.min.css">
     <title>Home - Netflix</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/netflix-sans" rel="stylesheet">         
     
 </head>
 <body>
@@ -33,9 +35,10 @@
             <b><li class="luxbar-item"><a href="#">News & Popular</a></li></b>
             <b><li class="luxbar-item"><a href="#">My List</a></li></b>
         </ul>
+        <div style="display:flex; justify-content:flex-end"><img src="img/avatar.png" id="nav-img" style="transform: translate(0, -57px); position:absolute;"</div>
     </div>
 </header>
-    
+       
 <div class="hero">
   <div class="cover-gradient">
     <div class="container-main">
@@ -43,13 +46,14 @@
     width: 63%;
     height: auto;
 ">
-        <div class="button-container">
+      <div class="button-container">
         <button class="play-btn"><i class="fas fa-play"></i>  Play </button>
         <button class="info-btn"><i class="fas fa-info"></i> More Info </button>
       </div>
     </div>
   </div>
 </div>
+
 
 <header class="main">
     <h1 class="heading">Welcome to Netflix</h1>
@@ -63,6 +67,7 @@
     <script src="js/api.js"></script>
     <script src="js/scroll.js"></script>
     <script src="js/home.js"></script>
-   
+    <script src="js/banner.js"></script>
+       
 </body>
 </html>
