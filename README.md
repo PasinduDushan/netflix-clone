@@ -34,6 +34,10 @@ npm start
 
 Before creating an issue, please ensure that it hasn't already been reported/suggested
 
+## Important
+
+If the site do not show movies it could be an API error or system error. At that time, try again later.
+
 ## Screen Shots
 
 ![image](https://user-images.githubusercontent.com/57533877/130921139-7e1418a8-e20c-49cd-b8e3-43b9ca779636.png)
